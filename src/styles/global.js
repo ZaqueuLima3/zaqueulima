@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components"
 
 const GlobalStyles = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
   /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -55,7 +56,7 @@ const GlobalStyles = createGlobalStyle`
     background: #282F3C;
     line-height: 1;
     font-size: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: 'Roboto', sans-serif;
   }
   img {
     display: block;
@@ -67,7 +68,7 @@ const GlobalStyles = createGlobalStyle`
     --borders: #364563;
     --texts: #F0DCF5;
     --postColor: #fff;
-    --highlight: #1fa1f2;
+    --highlight: #4EA8C4;
     --mediumBackground: #1F242E;
     --background: #282F3C;
     --white: #fff;

@@ -6,6 +6,7 @@ export const SidebarWrapper = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 4rem 1.5rem;
   position: fixed;
   text-align: center;

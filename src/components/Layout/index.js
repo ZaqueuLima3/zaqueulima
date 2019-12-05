@@ -4,14 +4,15 @@ import PropTypes from "prop-types"
 import SideBar from "../SideBar"
 
 import GloabalStyle from "../../styles/global"
+import * as S from "./styles"
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <S.LayoutWrapper>
       <GloabalStyle />
       <SideBar />
-      <main>{children}</main>
-    </>
+      <S.LayoutMain>{children}</S.LayoutMain>
+    </S.LayoutWrapper>
   )
 }
 
